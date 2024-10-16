@@ -1,0 +1,17 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .: {}
+
+  utils/commonMiniTools: {}
+
+  utils/modalManage:
+    dependencies:
+      '@mono/common-mini-tools':
+        specifier: workspace:^
+        version: link:../commonMiniTools

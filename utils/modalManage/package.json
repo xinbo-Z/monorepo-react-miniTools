@@ -1,0 +1,19 @@
+{
+  "name": "@mono/modal-manage",
+  "version": "1.0.0",
+  "description": "主要包含弹窗管理方案",
+  "main": "index.ts",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mono/common-mini-tools": "workspace:^"
+  }
+}
